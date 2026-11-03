@@ -9,7 +9,7 @@ def user_id_gen_by_user():
     for j in range(numb_ids):
         usr_gen = ''
         for l in range(numb_char):
-            usr_gen += random.choice('0123456789abcdefghijklmnopqrstuvwxyz')
+            usr_gen += random.choice('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
         print(f'random Pass: {usr_gen}')
 user_id_gen_by_user()
 print('##########################################################################')
